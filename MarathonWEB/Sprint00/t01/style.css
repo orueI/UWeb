@@ -1,0 +1,20 @@
+.head_table {
+    color: white;
+    font-style: unset;
+    text-align: center;
+}
+.tableStyle {
+    border-collapse: collapse;
+}
+.tdStyle {
+    border: solid white;
+    border-width: 2px;
+    text-align: center;
+}
+.imgStyleToTable {
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    border-radius: 40px;
+}

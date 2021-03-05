@@ -1,0 +1,18 @@
+.btn {
+    width: 100%;
+}
+
+.editText {
+    width: max-content;
+    color: green;
+    height: 2em;
+}
+
+input:hover{
+color: red;
+}
+
+.layout {
+    width: max-content;
+    display: flex;
+}

@@ -1,9 +1,10 @@
 .btn {
-    width: 100%;
+    color: green;
+    height: 2em;
 }
 
 .editText {
-    width: max-content;
+    width: 100%;
     color: green;
     height: 2em;
 }
@@ -13,6 +14,6 @@ color: red;
 }
 
 .layout {
-    width: max-content;
+    width: 100%;
     display: flex;
 }

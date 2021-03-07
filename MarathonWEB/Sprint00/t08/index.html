@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 08</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="margin: 10px">
+    <h1>Superhero Form</h1>
+    <div>
+<!--            style="background: gray">-->
+        <form class="container" action="superhero-form" method="post">
+<!--            <fieldset>-->
+                <fieldset>
+                    <legend>About the superhero</legend>
+                    <div class="box">
+                        <label for="editRealName">Real name</label>
+                        <input id="editRealName" placeholder="Superhero real name">
+
+                        <label for="editSuperheroName">Superhero name</label>
+                        <input id="editSuperheroName" placeholder="Superhero name">
+
+                        <label for="editAge">Age</label>
+                        <input id="editAge" type="number">
+
+                    </div>
+                    <div class="box">
+                        <label for="editAboutSuperhero">About</label>
+                        <textarea id="editAboutSuperhero" rows="5" cols="70" maxlength="500">
+            </textarea>
+                    </div>
+                    <div class="box">
+                        <label for="fileChooser">Photo</label>
+                        <input id="fileChooser" type="file">
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <div>
+
+                        <legend>Powers</legend>
+                        <input id="checkBoxTelekinesis" type="checkbox">
+                        <label for="checkBoxTelekinesis">Telekinesis</label>
+
+                        <input id="checkBoxstrengthOrSpeed" type="checkbox">
+                        <label for="checkBoxstrengthOrSpeed">Super strength or speed</label>
+
+                        <input id="checkBoxSpaceshifting" type="checkbox">
+                        <label for="checkBoxSpaceshifting">Spaceshifting</label>
+
+                        <input id="checkBoxFlight" type="checkbox">
+                        <label for="checkBoxFlight">Flight</label>
+
+                        <input id="checkBoxElementalControl" type="checkbox">
+                        <label for="checkBoxElementalControl">Elemental control</label>
+
+                        <input id="checkBoxOther" type="checkbox">
+                        <label for="checkBoxOther">Other</label>
+                    </div>
+                    <div>
+                        <label>Level of control</label>
+                        <input type="range">
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Origin of Powers</legend>
+                    <div>
+                        <input type="radio" id="radioUnknown">
+                        <label for="radioUnknown">Unknown</label>
+
+                        <input type="radio" id="radioFreakLabAccident">
+                        <label for="radioUnknown">Freak lab accident</label>
+
+                        <input type="radio" id="radioBegin">
+                        <label for="radioUnknown">Chosen by an ancient wise being</label>
+
+                        <input type="radio" id="radioNotHuman">
+                        <label for="radioUnknown">The superhero is not human</label>
+
+                        <input type="radio" id="radioOther">
+                        <label for="radioUnknown">Other</label>
+                    </div>
+                </fieldset>
+<!--            </fieldset>-->
+            <div>
+                <input class="btn" type="button" value="CLEAR">
+                <input class="btn" type="button" value="SEND">
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

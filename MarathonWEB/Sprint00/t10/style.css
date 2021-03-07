@@ -1,0 +1,34 @@
+.data {
+    margin: 0;
+    width: 120px;
+    background: blue;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.container {}
+.t{
+    margin: 0;
+
+    text-align: center;
+    width: 120px;
+    font-size: 2em;
+
+}
+
+.card {
+    width: 120px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    /*height: 30px;*/
+    margin: 20px;
+}
+/*.container div:hover{*/
+/*}*/
+.card:hover{
+    margin-top: 5px;
+    transition: box-shadow 300ms ease;
+    box-shadow: 0 14px 28px black, 0 10px 10px rgba(0,0,0,0.22);
+
+}

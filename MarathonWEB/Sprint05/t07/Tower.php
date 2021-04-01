@@ -87,10 +87,19 @@ class Tower extends Building
     }
 }
 
-//Floors :93
-//$Material : Different
-//$Address : Manhattan, NY
-//$Elevator: +
-//$Arcreactor capacity : 0
-//$Height : 1130
-//$Floor height : 12.150537634409$
+
+
+
+//val map = mapOf()
+//Pair<Int,Double>(4   ,0.06),
+//Pair<Int,Double>(8   ,0.06),
+//Pair<Int,Double>(16   ,0.08),
+//Pair<Int,Double>(16   ,0.12),
+//Pair<Int,Double>(32   ,0.12),
+//Pair<Int,Double>(64   ,0.16),
+//Pair<Int,Double>(20   ,0.09),
+//Pair<Int,Double>(40   ,0.09),
+//Pair<Int,Double>(80   ,0.12),
+//Pair<Int,Double>(28   ,0.03),
+//Pair<Int,Double>(56   ,0.03),
+//Pair<Int,Double>(112   ,0.04)

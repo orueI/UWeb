@@ -1,0 +1,10 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background: red;
+    color: white;
+    text-align: center;
+    height: 115px;
+}
+h1 span{
+    font-size: 4em;
+}

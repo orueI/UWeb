@@ -1,0 +1,22 @@
+a:any-link[href*=\/www]{
+    color: green;
+}
+a:any-link[target]:after{
+    color: coral;
+    content: "\21D2";
+}
+a:any-link[href*="http:"]:before{
+    padding-right: 10px;
+    content: "\00D7";
+    color: red;
+}
+a:any-link[href*="https:"]:before{
+    content: "\00Bb";
+    padding-right: 10px;
+
+}
+a:any-link[href*="/a"]:hover {
+    font-style: italic;
+    color: coral;
+    content: "\2026 last symbol isa ";
+}

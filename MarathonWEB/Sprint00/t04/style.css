@@ -1,0 +1,55 @@
+.containerCard {
+    display: inline-block;
+    /*margin: 3%;*/
+    padding: 10px;
+}
+
+.containerCard div {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-flex;
+    margin: 25px 25px 47px;
+    content: "";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.containerCard div img {
+    height: 182px;
+    position: relative;
+    /*top: -27%;*/
+    bottom: 24%;
+}
+
+.containerCard div div h3 {
+    /*width: 400%;*/
+    /*top: -5%;*/
+    color: white;
+    font-size: 12px;
+    position: relative;
+
+}
+
+.containerCard div div p {
+    /*width: 200%;*/
+    /*top: 5%;*/
+    /*left: 65%;*/
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+
+}
+
+.containerCard div div {
+    width: 250px;
+    display: block;
+    background: transparent;
+    /*left: -20px;*/
+    position: relative;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+

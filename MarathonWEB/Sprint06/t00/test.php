@@ -1,5 +1,5 @@
 <?php
-/*Task 00 (test.php)Task name: LinkedList*/
+/*Task 00 (test.xml.php)Task name: LinkedList*/
 function autoload($pClassName)
 {
     include(__DIR__ . "/" . $pClassName . ".php");

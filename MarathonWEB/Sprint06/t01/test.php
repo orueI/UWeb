@@ -1,5 +1,5 @@
 <?php
-/*Task 01 (test.php)Task name: Object to string*/
+/*Task 01 (test.xml.php)Task name: Object to string*/
 require_once(__DIR__ . "/Avenger.php");
 
 $first_avenger = new Avenger("Tony Stark", "Iron Man", "man", 38, ["intelligence", "durability", "magnetism"]);

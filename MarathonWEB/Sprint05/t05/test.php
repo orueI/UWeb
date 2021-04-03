@@ -1,5 +1,5 @@
 <?php
-/*Task 05 (test.php)Task name: StrFrequency*/
+/*Task 05 (test.xml.php)Task name: StrFrequency*/
 include 'StrFrequency.php';
 function test($string)
 {
@@ -20,6 +20,6 @@ function test($string)
 
 test("Face it, Harley-- you and your Puddin' are kaput!");
 echo "*************\n";
-test("  Test test 123 45 !0 f   HeLlO wOrLd  ");
+test("  Test test.xml 123 45 !0 f   HeLlO wOrLd  ");
 echo "*************\n";
 test("");

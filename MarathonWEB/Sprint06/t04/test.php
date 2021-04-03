@@ -1,5 +1,5 @@
 <?php
-/*Task 04 (test.php)Task name: Try, catch*/
+/*Task 04 (test.xml.php)Task name: Try, catch*/
 require_once("EatException.php");
 require_once("Ingestion.php");
 require_once("Product.php");

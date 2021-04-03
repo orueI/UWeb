@@ -1,5 +1,5 @@
 <?php
-/*Task 02 (test.php)Task name: Range*/
+/*Task 02 (test.xml.php)Task name: Range*/
 
 include 'index.php';
 echo "*** Range is 3 - 7 checkDivision(3,7) ***\n";

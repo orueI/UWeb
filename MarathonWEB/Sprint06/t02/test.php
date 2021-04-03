@@ -1,5 +1,5 @@
 <?php
-/*Task 02 (test.php)Task name: Clone the Avengers*/
+/*Task 02 (test.xml.php)Task name: Clone the Avengers*/
 require_once(__DIR__ . "/Team.php");
 require_once(__DIR__ . "/Avenger.php");
 $arr = array();

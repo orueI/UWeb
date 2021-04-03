@@ -1,5 +1,5 @@
 <?php
-/*Task 03 (test.php)Task name: firstUpper*/
+/*Task 03 (test.xml.php)Task name: firstUpper*/
 include 'index.php';
 echo ('"testing String" :' . firstUpper("testing String")) . "\n";
 echo ('"   testing   String" :' . firstUpper("   testing   String")) . "\n";

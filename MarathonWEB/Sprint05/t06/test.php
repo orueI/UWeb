@@ -1,5 +1,5 @@
 <?php
-/*Task 06 (test.php)Task name: HardWorker*/
+/*Task 06 (test.xml.php)Task name: HardWorker*/
 include 'HardWorker.php';
 $Bruce = new HardWorker();
 $Bruce->setName("Bruce");

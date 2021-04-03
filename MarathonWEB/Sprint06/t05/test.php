@@ -1,5 +1,5 @@
 <?php
-/*Task 05 (test.php)Task name: Namespace "Quantum"*/
+/*Task 05 (test.xml.php)Task name: Namespace "Quantum"*/
 require_once __DIR__ . '/Normal/index.php';
 require_once __DIR__ . '/Quantum/index.php';
 

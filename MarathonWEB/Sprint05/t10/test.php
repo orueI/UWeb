@@ -1,6 +1,6 @@
 <?php
 
-/*Task 10 (test.php)Task name: Trait*/
+/*Task 10 (test.xml.php)Task name: Trait*/
 spl_autoload_register(function ($class_name) {
     include $class_name . '.php';
 });

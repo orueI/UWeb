@@ -70,7 +70,7 @@ class ListAvengerQuotes
     {
         $photos = array();
         $comments = array();
-//        for ($i = 0; $i < count($XMLElement->photos); $i++) {
+//        fo r ($i = 0; $i < count($XMLElement->photos); $i++) {
 //            $photos[count($photos)] = $XMLElement->photos->photo;
 //        }
         foreach ((array)$XMLElement->photos as $photo) {
